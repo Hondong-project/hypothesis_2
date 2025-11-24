@@ -62,8 +62,8 @@ df["text_anomaly_score"] = (raw - min_s) / (max_s - min_s + 1e-9)
 
 
 
-
-→ 매물 설명 텍스트를 SBERT 임베딩 + IsolationForest로 분석해서, **각 매물별 text_anomaly_score (0.0 ~ 1.0)**를 만든다.
+-----------------------------------------------------------------------------------------------------
+###매물 설명 텍스트를 SBERT 임베딩 + IsolationForest로 분석해서, **각 매물별 text_anomaly_score (0.0 ~ 1.0)**를 만든다.
 
 
 ### 1. `daangn_list_detail_with_image_score.csv` 읽기
